@@ -1,4 +1,17 @@
 @charset "utf-8";
+@use "sass:map";
+@mixin headers($h1-em: 2em) {
+    $fib: ("6": .236, "5": .382, "4": .50, "3": .618, "2": .786, "1":1);
+    @for $i from 1 through 6 {
+        h#{$i} {
+            font-size: $h1-em * map.get($fib, #{$i})};
+        }
+      
+}
+@include headers();
+.mtsnb {
+    @include headers(3em);
+}
 /* CSS Document */
 p, em, a, strong, div, span, li {
     font-family: Lato;
@@ -242,6 +255,7 @@ border-radius: 10px;
 hr {
     overflow: visible; /* For IE */
     height: 30px;
+    box-sizing: inherit;
     border-style: solid;
     border-color: #3B4783;
     border-width: 1px 0 0 0;

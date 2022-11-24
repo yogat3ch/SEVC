@@ -34,3 +34,13 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+
+node_modules/
+images/
+*.png
+*.pdf
+*.jpg
+# Minified files
+*.min.css$
+*.min.css.map
+*\-min\.html

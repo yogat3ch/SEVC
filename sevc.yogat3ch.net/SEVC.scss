@@ -140,6 +140,15 @@ th {text-align: center;
 font-weight: 800;
 font-size: larger;}
 /*Accordion Styling 2017_03_07 2016*/
+.accordion {
+    & h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 0px;  
+    }
+    & .accordion-button {
+        font-size: 2rem;
+    }
+}
+
 div.panel-heading h4.panel-title {
 	line-height:20px;
 }

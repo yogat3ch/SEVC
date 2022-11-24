@@ -1,0 +1,5 @@
+inst/vault
+.Renviron
+.Rhistory
+.Rproj.user
+.DS_Store

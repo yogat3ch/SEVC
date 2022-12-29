@@ -35,6 +35,16 @@ vignettes/*.pdf
 *.utf8.md
 *.knit.md
 
+sevc.yogat3ch.net/Media/
+
+sevc.yogat3ch.net/Plugins/
+
+seva_newsletter/
+
+sevc.yogat3ch.net/SEVC.min.css
+
+*.Rproj
+
 node_modules/
 images/
 *.png

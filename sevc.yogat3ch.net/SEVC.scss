@@ -1,5 +1,6 @@
 @charset "utf-8";
 @use "sass:map";
+
 @mixin headers($h1-em: 2em) {
     $fib: ("6": .236, "5": .382, "4": .50, "3": .618, "2": .786, "1":1);
     @for $i from 1 through 6 {
@@ -148,7 +149,9 @@ font-size: larger;}
         font-size: 2rem;
     }
 }
-
+.fade {
+    opacity: 1 !important;
+}
 div.panel-heading h4.panel-title {
 	line-height:20px;
 }
@@ -327,6 +330,15 @@ text-align: center;
 vertical-align: top}
 .fntsm
 {font-size:33%}
+.btn {
+    font-size: 1.5rem;
+    background-color: #3a4783;
+    color: #fff;
+    &:hover {
+        color: #fff;
+        background-color: #56639f;
+    }
+}
 /*Bootstrap Modal Button Styling 2017-07-19 1540*/
 .btn-info {
 	border-radius: 20px;
@@ -474,6 +486,13 @@ button.kad-btn.kad-btn-primary.sm-kad-btn:hover {
    margin-left: auto !important;
    margin-right: auto !important;
  }  
+ // Floats
+ .float-start {
+    float: left;
+ }
+ .float-end {
+    float: right;
+ }
 /*Footer Styling 2017-11-10 1942*/
 .footercredits {display: inline-flex;
     width: 100%;}
@@ -481,3 +500,17 @@ button.kad-btn.kad-btn-primary.sm-kad-btn:hover {
 .footercredits div {padding: 4px 0;
     margin: 0 0 10px;
     text-align: right;}
+
+    // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/maps";
+@import "node_modules/bootstrap/scss/root";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/containers";
+@import "node_modules/bootstrap/scss/grid";

@@ -1,0 +1,569 @@
+/* CSS Document */
+p, em, a, strong, div, span, li {
+  font-family: Lato;
+}
+
+/*topbar styling 2017-11-10 1723*/
+@media (min-width: 992px) {
+  .col-md-6.col-sm-6.kad-topbar-right {
+    width: 99%;
+    float: right;
+  }
+
+  .col-md-6.col-sm-6.kad-topbar-left {
+    width: 1%;
+  }
+}
+.textwidget.custom-html-widget table {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  border: none;
+}
+
+.textwidget.custom-html-widget a:hover {
+  background: rgba(45, 92, 136, 0.3);
+  border-radius: 10px;
+}
+
+/*Tab styling on Student Resources 2019-02-02 1957*/
+div#sr > ul > li > a {
+  padding: 5px;
+}
+
+/* Footer Widget Styling 2018-11-07 2136*/
+.col-md-12.footercol1 {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+#custom_html-6 > div {
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footercredits {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footercredits p:nth-child(1) {
+  width: 100%;
+}
+
+footer#containerfooter {
+  text-align: center;
+}
+
+.virtue_social_widget.clearfix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footermenu {
+  float: none !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+.footercredits.clearfix {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.footernav.clearfix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*Nav Styling 2017-07-04 1646*/
+#nav-main ul.sf-menu > li, #nav-second ul.sf-menu > li, .sidebar a, .author-name a, .author-latestposts h5 a {
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#nav-main ul.sf-menu > li:hover, #nav-second ul.sf-menu > li:hover, .sidebar a:hover, .author-name a:hover, .author-latestposts h5 a:hover {
+  background: rgba(45, 92, 136, 0.3);
+  border-radius: 10px;
+}
+
+.sf-menu li {
+  float: right;
+}
+
+.sf-menu ul li {
+  border-bottom: none;
+}
+
+.sf-menu ul {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sf-menu ul a:hover {
+  background: rgba(45, 92, 136, 0.3);
+  border-radius: 10px;
+}
+
+/*Nav Styling 2017-07-04 1646*/
+.sf-menu a {
+  padding: 10px;
+}
+
+.sf-menu li:hover {
+  background: rgba(45, 92, 136, 0.3);
+}
+
+#nav-second ul.sf-menu > li {
+  width: 12.5%;
+  display: inline-block;
+}
+
+#nav-second ul.sf-menu a {
+  font-family: Lato;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: 400;
+  font-size: 14px;
+}
+
+/*Table Styling 2017-10-31 1516*/
+table.dir td {
+  border-bottom-style: groove;
+  border-bottom: 1px thin;
+}
+
+th {
+  text-align: center;
+  font-weight: 800;
+  font-size: larger;
+}
+
+/*Accordion Styling 2017_03_07 2016*/
+div.panel-heading h4.panel-title {
+  line-height: 20px;
+}
+
+div#directions div.panel.panel-default div.panel-heading h4.panel-title {
+  line-height: 22px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+
+div[id*=heading] h4.panel-title {
+  margin-top: -15px;
+  line-height: 16px;
+  font-size: 14px;
+}
+
+div[id*=heading] h4.panel-title a:visited {
+  color: #2e3c84;
+}
+
+.panel-default > .panel-heading:hover {
+  border-left: 3px solid #3B4783;
+  overflow: hidden;
+  margin-left: -3px;
+}
+
+div.panel-heading a {
+  text-decoration: underline;
+}
+
+div#qanda h4.panel-title {
+  margin-bottom: -22px;
+}
+
+table.photo td {
+  width: 33%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.fntsm {
+  font-size: 33%;
+}
+
+/*Alternating Table Color 2017_06_02 1429*/
+table.altcolor tr:nth-child(even) {
+  background: #CCC;
+}
+
+table.altcolor {
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+}
+
+/* Matteing 2017_06_02 1430*/
+.matte {
+  padding: 5px;
+  border: solid 1px #3B4783;
+  border-radius: 25px;
+  margin: 25px;
+}
+
+img.matte {
+  padding: 5px;
+  border: solid 1px #EFEFEF;
+}
+
+a:hover img.matte {
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+a.wp-colorbox-inline.cboxElement img:hover {
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+div.subform a.wp-colorbox-inline.cboxElement {
+  background: #4281bf;
+  border: 0px solid black;
+  border-radius: 25px;
+  color: white;
+  padding: 10px;
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+/*Ninja Forms Styling 2017_06_02 1730*/
+.nf-field-element input, .nf-field-element select, .nf-field-element textarea {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nf-form-cont {
+  padding: 15px;
+  background: rgba(120, 185, 232, 0.82);
+  border-radius: 25px;
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+/*Foobox Styling 2017-10-31 1437*/
+.foobox.space img {
+  padding-top: 50px;
+}
+
+/*Read More 2018-03-29 2041 - added to plugin style css /home/dhammapatapa/public_html/wp-content/plugins/read-more-without-refresh/style.css*/
+*[id^=readlink] {
+  font-weight: bold;
+  color: #3B4783;
+  padding: 5px;
+  border: none;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+*[id^=readlink]:hover {
+  font-weight: bold;
+  padding: 5px;
+  text-decoration: underline !important;
+  border: none;
+  border-bottom: none;
+}
+
+*[id^=readlink]:focus {
+  outline: none;
+  color: #428bca;
+  border: none;
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* Flaired edges, by Tomas Theunissen 2017-09-13 1606*/
+hr {
+  overflow: visible;
+  /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: #3B4783;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+
+hr:before {
+  /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #3B4783;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+th {
+  text-align: center;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.entry-content table td, .entry-content table th {
+  padding: 0px;
+}
+.entry-content table.mcnCaptionBlock.columnar {
+  width: 100%;
+}
+.entry-content table.mcnCaptionBlock.columnar td.mcnCaptionBlockInner {
+  width: 100%;
+}
+.entry-content table.mcnCaptionBlock.columnar td.mcnCaptionBlockInner table.mcnCaptionTopContent:nth-of-type(1) {
+  width: 50%;
+  float: left;
+}
+.entry-content table.mcnCaptionBlock.columnar td.mcnCaptionBlockInner table.mcnCaptionTopContent:nth-of-type(2) {
+  float: right;
+  width: 50%;
+}
+
+/*Cost of Course on Course Info page 2017-09-13 1515 */
+.coc {
+  cursor: hand;
+  cursor: pointer;
+  color: #337ab7;
+}
+
+.coc:hover {
+  text-decoration: underline;
+}
+
+/*Accordion Styling*/
+.bold-title, div.panel-heading a {
+  text-decoration: underline;
+  color: #3B4783;
+}
+
+table.photo td {
+  width: 33%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.fntsm {
+  font-size: 33%;
+}
+
+/*Bootstrap Modal Button Styling 2017-07-19 1540*/
+.btn-info {
+  border-radius: 20px;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+  background: #1e73be;
+}
+
+.btn-info:hover {
+  background: #4281bf;
+}
+
+/*Alternating Table Color 2017_06_02 1429*/
+table.altcolor tr:nth-child(even) {
+  background: #CCC;
+}
+
+table.altcolor {
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
+}
+
+/*Best Wordpress Gallery Slider Styling 2020-12-16T16:29:49*/
+#bwg_container1_1 #bwg_container2_1 .bwg_slideshow_dots_1, #bwg_container1_0 #bwg_container2_0 .bwg_slideshow_dots_0 {
+  background: #3B4783 !important;
+}
+
+/*Image Matte 2017_06_02 1430*/
+.matte {
+  padding: 5px;
+  border: solid 1px #EFEFEF;
+}
+
+.div-matte {
+  padding: 5px 5px 15px 5px;
+  border: solid 1px #EFEFEF;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+a:hover img.matte {
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+a.wp-colorbox-inline.cboxElement img:hover {
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+div.subform a.wp-colorbox-inline.cboxElement {
+  background: #4281bf;
+  border-radius: 25px;
+  color: white;
+  padding: 10px;
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+/*Ultimate Member Logged In Page 2017-07-28 1659*/
+.um-misc-with-img {
+  display: none;
+}
+
+.um-misc-ul, .um-misc-ul li {
+  display: none;
+}
+
+/*Ninja Forms Styling 2017_06_02 1730*/
+.nf-field-element input, .nf-field-element select, .nf-field-element textarea {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nf-form-cont {
+  padding: 15px;
+  background: rgba(120, 185, 232, 0.82);
+  border-radius: 25px;
+  border: solid 1px #CCC;
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.nf-form-title {
+  text-align: center;
+}
+
+.nf-field-label label {
+  font-weight: bolder;
+  font-size: large;
+}
+
+/*Virtue Modal Button Styling 2021-02-25T10:49:28*/
+a.kad-btn.btn-shortcode.kad-btn-primary {
+  padding: 3px;
+}
+
+/*Virtue Modal Button Styling 2017-07-11 1619*/
+button.kad-btn.kad-btn-primary.sm-kad-btn {
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+  border-radius: 20px;
+}
+
+button.kad-btn.kad-btn-primary.sm-kad-btn:hover {
+  -webkit-box-shadow: 1px 1px 5px #999;
+  box-shadow: 1px 1px 5px #999;
+  background: #4281bf;
+}
+
+.nf-form-title {
+  text-align: center;
+}
+
+.nf-field-label label {
+  font-weight: bolder;
+  font-size: large;
+}
+
+/*Responsive iFrame 2017_06_06 1521*/
+#Iframe-Liason-Sheet {
+  max-width: 550px;
+  max-height: 2000px;
+  overflow: hidden;
+}
+
+/* inner wrapper: make responsive */
+.responsive-wrapper {
+  position: relative;
+  height: 0;
+  /* gets height from padding-bottom setting */
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* padding-bottom = h/w as a % */
+.responsive-wrapper-wxh-550x2000 {
+  padding-bottom: 363.6364%;
+}
+
+.iframe-border {
+  border: 1px solid #000;
+}
+
+.center-block-horiz {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/*Footer Styling 2017-11-10 1942*/
+.footercredits {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 100%;
+}
+
+.footercredits p:nth-child(1) {
+  width: 82%;
+}
+
+.footercredits div {
+  padding: 4px 0;
+  margin: 0 0 10px;
+  text-align: right;
+}
